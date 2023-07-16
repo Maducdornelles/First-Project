@@ -23,7 +23,7 @@ if (!commentListUl) {
     throw new Error("comment list not found")
 }
 
-expandedCard.innerHTML = `
+expandedCard.innerHTML += `
     <figure>
         <img src="${postObject.imageUrl}" alt="">
         <figcaption>
@@ -38,7 +38,7 @@ expandedCard.innerHTML = `
 `
 
 postObject.comments.forEach(comment => {
-    commentListUl.innerHTML = `
+    commentListUl.innerHTML += `
     <li>
         <p>
             <span class="user">

@@ -14,7 +14,7 @@ if (!commentListUl) {
     alert('404 comment list not found');
     throw new Error("comment list not found");
 }
-expandedCard.innerHTML = `
+expandedCard.innerHTML += `
     <figure>
         <img src="${postObject.imageUrl}" alt="">
         <figcaption>
@@ -28,7 +28,7 @@ expandedCard.innerHTML = `
     </figure>
 `;
 postObject.comments.forEach(comment => {
-    commentListUl.innerHTML = `
+    commentListUl.innerHTML += `
     <li>
         <p>
             <span class="user">
