@@ -1,128 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>First-Project</title>
-</head>
-
-<body>
-    <header>
-        <div class="container">
-          <a href="index.html">
-            <img src="https://media.discordapp.net/attachments/1100490385077321758/1129127621104521326/logomarca.png" alt="Logo" class="logo">
-          </a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>First-Project</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="index.html">
+                    <img src="https://media.discordapp.net/attachments/1100490385077321758/1129127621104521326/logomarca.png" alt="Logo" class="logo">
+                </a>
+            </div>
+        </header>      
+        <div id="post-list">
+            <div id="home-container">
+                <section class="FirstSection">
+                    <h1 id="title-home">
+                        User posts
+                    </h1>
+                    <div id="posts-container">
+                        <ul id="post-ul"></ul>
+                    </div>
+                </section>
+            </div>
         </div>
-      </header>      
-  <div id="post-list">
-    <div id="home-container">
-      <section class="FirstSection">
-        <h1 id="title-home">
-          User posts
-        </h1>
-        <div id="posts-container">
-          <ul id="post-ul">
-            <li>
-              <div class="card">
-                <figure>
-                  <img src="https://images-ext-1.discordapp.net/external/YvSuyecgNnr6odvM0vdSe0vjDZaiUlcuvEnc22H6BCA/https/i.pinimg.com/564x/81/f6/6f/81f66f185a8994dfa83470e75ea68d18.jpg" alt="">
-                  <figcaption>
-                    <h2>Post 1</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                    <a class="expand-btn" href="post-details.html">Expand..</a>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <li>
-              <!-- primeiro card -->
-              <div class="card">
-                <figure>
-                  <img src="https://images-ext-1.discordapp.net/external/YvSuyecgNnr6odvM0vdSe0vjDZaiUlcuvEnc22H6BCA/https/i.pinimg.com/564x/81/f6/6f/81f66f185a8994dfa83470e75ea68d18.jpg" alt="">
-                  <figcaption>
-                    <h2>Post 2</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                    <a class="expand-btn" href="post-details.html">Expand..</a>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <li>
-              <!-- Terceiro card -->
-              <div class="card">
-                <figure>
-                  <img src="https://images-ext-1.discordapp.net/external/YvSuyecgNnr6odvM0vdSe0vjDZaiUlcuvEnc22H6BCA/https/i.pinimg.com/564x/81/f6/6f/81f66f185a8994dfa83470e75ea68d18.jpg" alt="">
-                  <figcaption>
-                    <h2>Post 3</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                    <a class="expand-btn" href="post-details.html">Expand..</a>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <!-- Adicione mais cards conforme necessário -->
-            <li>
-              <!-- Quarto card -->
-              <div class="card">
-                <figure>
-                  <img src="https://images-ext-1.discordapp.net/external/YvSuyecgNnr6odvM0vdSe0vjDZaiUlcuvEnc22H6BCA/https/i.pinimg.com/564x/81/f6/6f/81f66f185a8994dfa83470e75ea68d18.jpg" alt="">
-                  <figcaption>
-                    <h2>Post 4</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                    <a class="expand-btn" href="post-details.html">Expand..</a>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <li>
-              <!-- Quinto card -->
-              <div class="card">
-                <figure>
-                  <img src="https://images-ext-1.discordapp.net/external/YvSuyecgNnr6odvM0vdSe0vjDZaiUlcuvEnc22H6BCA/https/i.pinimg.com/564x/81/f6/6f/81f66f185a8994dfa83470e75ea68d18.jpg" alt="">
-                  <figcaption>
-                    <h2>Post 5</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                    <a class="expand-btn" href="post-details.html">Expand..</a>
-                  </figcaption>
-                </figure>
-              </div>
-            </li>
-            <li>
-                <!-- Quinto card -->
-                <div class="card">
-                  <figure>
-                    <img src="https://images-ext-1.discordapp.net/external/YvSuyecgNnr6odvM0vdSe0vjDZaiUlcuvEnc22H6BCA/https/i.pinimg.com/564x/81/f6/6f/81f66f185a8994dfa83470e75ea68d18.jpg" alt="">
-                    <figcaption>
-                      <h2>Post 6</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                      <a class="expand-btn" href="post-details.html">Expand..</a>
-                    </figcaption>
-                  </figure>
+        <div id="post-details">
+            <section class="SecondSection">
+                <div>
+                    <ul id="post-ul"></ul>
                 </div>
-              </li>
-          </ul>
+            </section>
         </div>
-      </section>
-    </div>
-  </div>
-  <div id="post-details">
-    <section class="SecondSection">
-      <div>
-        <ul>
-          <li>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </div>
-
-  <script type="module" src="dist/data.js"></script>
-  <script type="module" src="app.js"></script>
-</body>
-
+        
+        <script type="module" src="dist/data.js"></script>
+        <script type="module" src="dist/app.js"></script>
+    </body>
 </html>
