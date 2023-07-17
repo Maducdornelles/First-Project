@@ -24,7 +24,7 @@ Follow the instructions below to run the application in your development environ
    
    Index.html
 
-   ## Default Project Colors
+   ## Project Colors
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
