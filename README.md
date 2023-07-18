@@ -1,4 +1,4 @@
-# React Native Posts App
+# REACT NATIVE POSTS APP
 
 This is a React Native application that displays a list of posts with their respective information and allows users to view the details of each post, including the comments left by users.
 
@@ -24,7 +24,7 @@ Follow the instructions below to run the application in your development environ
    
    Index.html
 
-   ## Project Colors
+   ## Default Project Colors
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
@@ -32,6 +32,17 @@ Follow the instructions below to run the application in your development environ
 | Title             | ![#3a4f9a](https://via.placeholder.com/10/3a4f9a?text=+) #3a4f9a |
 | White             | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 | Gray              | ![#575757](https://via.placeholder.com/10/575757?text=+) #575757 |
+
+
+## PROJECT IMAGES :
+
+
+
+![Home Screen](https://cdn.discordapp.com/attachments/1091126635018858537/1130913936217210990/image.png)
+
+
+
+![Home Screen](https://cdn.discordapp.com/attachments/1091126635018858537/1130913994354467006/image.png)
 
 ## Author
 
