@@ -34,15 +34,6 @@ Follow the instructions below to run the application in your development environ
 | Gray              | ![#575757](https://via.placeholder.com/10/575757?text=+) #575757 |
 
 
-## PROJECT IMAGES :
-
-
-
-![Home Screen](https://cdn.discordapp.com/attachments/1091126635018858537/1130913936217210990/image.png)
-
-
-
-![Home Screen](https://cdn.discordapp.com/attachments/1091126635018858537/1130913994354467006/image.png)
 
 ## Author
 
